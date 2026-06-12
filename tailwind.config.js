@@ -1,0 +1,25 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,tsx,tsx}",
+  ],
+  theme: {
+    extend: {
+      colors: {
+        'romantic-pink': '#ff758c',
+        'romantic-red': '#ff7eb3',
+      },
+      animation: {
+        'float': 'float 3s ease-in-out infinite',
+      },
+      keyframes: {
+        float: {
+          '0%, 100%': { transform: 'translateY(0)' },
+          '50%': { transform: 'translateY(-10px)' },
+        }
+      }
+    },
+  },
+  plugins: [],
+}

@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  background: linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%);
+  min-height: 100vh;
+}
